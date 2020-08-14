@@ -6,7 +6,7 @@ public class SwitchCaseExample {
 
 	public void checkmyHero() {
 
-		switch (myHero) {
+/*		switch (myHero) {
 		case "Iron Man":
 			System.out.println("My hero is Iron Man");
 			break;  // If we dont give break; command, all other following cases will also get executed without checking the conditions
@@ -22,7 +22,7 @@ public class SwitchCaseExample {
 		default:
 			System.out.println("My hero is Bat Man");
 
-		}		
+		}	*/	
 
 	}
 

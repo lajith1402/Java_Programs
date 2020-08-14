@@ -13,13 +13,13 @@ public class LearnStaticVariable {
 //		columns=20; // cannot call the non-static variable without object
 		
 		LearnStaticVariable object1 = new LearnStaticVariable();
-		object1.rows=100;
+		object1.rows=100; // creating object for 'static' variable is NOT necessary
 		object1.columns=25;
 		object1.table="Table1";
-		object1.name="Name1";
+		name="Name1"; //defining value to the 'static' variable without using object
 		
 		LearnStaticVariable object2 = new LearnStaticVariable();
-		object2.rows=300;
+		rows=300; //defining value to the static variable without object
 		object2.columns = 50;
 		object2.name="Name2";
 		object2.table="Table2";

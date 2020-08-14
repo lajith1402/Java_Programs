@@ -9,12 +9,12 @@ public class LearnStaticMethodExample {
 
 	
 	public void nonStatic() {
-		staticMethod(); // can call a static method to any static or non-static methods simply without creating object
+		staticMethod(); // can call a static method from any static or non-static methods simply without creating object
 		System.out.println("It is non-static method");
 	}
 	
 	public static void main(String[] args) {
-		staticMethod(); //no need (not necessary) to create object for static methods
+		staticMethod(); //no need (not necessary) to create object for static methods, simply call the method name
 		
 		LearnStaticMethodExample stac = new LearnStaticMethodExample();
 		stac.nonStatic(); // need object to call non-static method(s)			
