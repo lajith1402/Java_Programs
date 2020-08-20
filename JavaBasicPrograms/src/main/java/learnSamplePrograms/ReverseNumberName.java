@@ -6,6 +6,7 @@ public class ReverseNumberName {
 
 	public void reverseNumber() {
 		int reverse = 0;
+	//	int num = 796345;
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the numeric value: "); //use Scanner class to enter input during run-time
