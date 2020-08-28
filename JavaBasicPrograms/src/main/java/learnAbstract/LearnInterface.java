@@ -3,10 +3,10 @@ package learnAbstract;
 
 public interface LearnInterface {
 	
-	String empName = "Ajeeth"; // declared variable is static, final and public by default
+	String empName = "Ajeeth"; // declared variable is 'static, final and public' by default
 	
 	
-	/*public void emp() { // body should not be specified
+	/*public void emp() { 	// body should not be specified for interface class
 		System.out.println("emp test");
 	}*/
 	

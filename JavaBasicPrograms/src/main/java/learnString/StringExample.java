@@ -60,7 +60,7 @@ public class StringExample {
 		//returns the output with a delimiter symbol - add delimiter in between the values
 		System.out.println(String.join("|", "learn", "auto", "online")); //op is = learn|auto|online
 		System.out.println(String.join("/", "14","08","2020")); //op is 14/08/2020
-		System.out.println(String.join("&&", "aji", "kumar"));
+		System.out.println(String.join("&&", "aji", "kumar")); //aji&&kumar
 		
 		//split the sentence by unique char
 		String splitSent = "I,am, a, good,boy!";

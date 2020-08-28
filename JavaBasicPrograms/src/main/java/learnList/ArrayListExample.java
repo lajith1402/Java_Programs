@@ -1,6 +1,7 @@
 package learnList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
@@ -17,10 +18,14 @@ public class ArrayListExample {
 		arraylist1.add("BMW");
 		arraylist1.add("TATA");
 		System.out.println("CAR list is: "+ arraylist1); // string values added in the insertion order & allowed duplicates
+		
+		Collections.sort(arraylist1); //sort the values in ascending order using 'Collections' class
+		System.out.println("Sorted list is: "+arraylist1);
 
 		System.out.println(arraylist1.get(2)); //get the index value of 2 - Swift
 		System.out.println(arraylist1.indexOf("TATA")); //get the index value
 		System.out.println(arraylist1.lastIndexOf("BMW")); //get the last index value of the string given
+		System.out.println(arraylist1.indexOf("XXXX")); //-1 is the o/p, if the input value is not found
 
 		List<String> anotherList = new ArrayList<String>();
 		anotherList.addAll(arraylist1); // copy all values from Arraylist1 to anotherList
@@ -50,13 +55,13 @@ public class ArrayListExample {
 		}
 		System.out.println("--------------------------------------------------");
 
-		for (int i=0; i<arraylist1.size(); i++) {
+		for (int i=0; i<arraylist1.size(); i++) {   //using normal for loop
 			System.out.println("Using for loop only: "+arraylist1.get(i));
 		}
 		System.out.println("--------------------------------------------------");
 
 
-		//using List Iterator -- ListIterator<String>  >>>> accepts forward and reverse direction allowed
+		//using "List Iterator" -- ListIterator<String>  >>>> accepts forward and reverse direction allowed
 		ListIterator<String> iterator1 = arraylist1.listIterator();
 		while(iterator1.hasNext()) {  // fetching values in move forward direction
 			System.out.println(iterator1.next());
@@ -68,7 +73,7 @@ public class ArrayListExample {
 		}
 		System.out.println("--------------------------------------------------");
 		
-		// Iterator -- only forward direction allowed
+		// "Iterator" -- only forward direction allowed
 		Iterator<String> iterator2 = arraylist1.iterator();
 		while(iterator2.hasNext()) {  // fetching values in move forward direction
 			System.out.println(iterator2.next());
