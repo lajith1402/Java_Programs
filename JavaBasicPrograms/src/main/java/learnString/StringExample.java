@@ -36,7 +36,7 @@ public class StringExample {
 		System.out.println(name.replace("kumar", "king")); //kumar is replaced with a new value 
 		
 		//find the position of a char in the given string
-		System.out.println(name.indexOf("e")); //it will show the index value of first occurence of char 'e' = 2
+		System.out.println(name.indexOf("e")); //it will show the index value of first occurrence of char 'e' = 2
 		
 		//find the index position of a char after the specified char
 		System.out.println(name.indexOf("k", 4)); //op = 6
@@ -46,7 +46,7 @@ public class StringExample {
 		// trim the string value
 		System.out.println(name.trim());
 		
-		//convert the given data type int to string
+		//convert the given data type from int to string
 		System.out.println(String.valueOf(num)); // the int value is converted into String data type
 		
 		//convert from uppercase to lowercase

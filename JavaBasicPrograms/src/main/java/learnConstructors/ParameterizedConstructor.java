@@ -14,7 +14,7 @@ public class ParameterizedConstructor {
 
 
 	public void aboutAnimal() {
-		System.out.println("Animal Name is - "+animal_name+"; " + "Animal ID is - "+animal_id);
+		System.out.println("Animal Name is: " +animal_name +"; " +"Animal ID is - "+animal_id);
 	}
 
 	public static void main(String[] args) {
